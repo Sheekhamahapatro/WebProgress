@@ -1,0 +1,26 @@
+body {
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+}
+.container {
+    display: flex;
+}
+
+.items {
+    color: white;
+    background-color: chocolate;
+    width: 100%;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sub-items {
+    color: rgb(255, 255, 255);
+    background-color: rgb(221, 212, 205);
+    width: 100%;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}

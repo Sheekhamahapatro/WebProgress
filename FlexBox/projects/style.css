@@ -1,0 +1,47 @@
+body {
+    background-color: aliceblue;
+    font-size:small;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding-inline: 10%;
+}
+.items{
+    margin: 1px;
+    padding: 5px;
+    flex-direction: row;
+}
+
+.subitems {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  margin:5px;
+  font-family: arial;
+}
+
+p{
+    padding: 10px;
+    margin: 15px;
+}
+img{
+    width: 100%;
+    height: 10%;
+}
+h1{
+    margin-left:30px;
+}
+button{
+    background-color: rgb(93, 90, 90);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 80px;
+    cursor: pointer;
+}
